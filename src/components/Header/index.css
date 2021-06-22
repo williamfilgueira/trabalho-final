@@ -1,0 +1,32 @@
+#header1{
+
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 30px;
+    color: aliceblue;
+    
+}
+input{
+    padding: 7px;
+    width: 430px;
+    border-radius: 10px;
+}
+#header2{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    color: aliceblue;
+    margin-left: 450px;
+    margin-right: 450px;
+
+}
+div.header{
+    background: gray;
+    /*opacity: 0.9;*/
+}
+
+
+
