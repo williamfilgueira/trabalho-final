@@ -8,6 +8,7 @@ const Main = () => (
     <div className="home">
        
         <Header/>
+        <h1>BRANCH</h1>
       
     </div>
 );
