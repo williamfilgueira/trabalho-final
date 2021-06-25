@@ -1,0 +1,47 @@
+/* div.detalhes{
+
+    display: flex;
+ 
+    padding:20px;
+ 
+    border-radius: 5px;
+    text-align: center;
+    
+    flex-direction: column;
+    
+    
+   
+} */
+div.detalhes > div {
+    margin-top: 100px;
+}
+#desc >img{
+    width: 150px;
+    height:150px;
+}
+div#desc {
+    width: 80vh;
+    height: 80vh;
+    text-align: center;
+}
+div#desc >span {
+    
+    
+    
+    text-align: center;
+   
+    
+}
+p#valor {
+    margin-top: 100px;
+}
+p#cores {
+    margin-top: 40px;
+}
+div#card{
+   
+    border-radius: 5px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
