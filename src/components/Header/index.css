@@ -4,8 +4,8 @@
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    padding: 30px;
-    color: aliceblue;
+    padding: 10px;
+    color: #000;
     
 }
 input{
@@ -15,18 +15,56 @@ input{
 }
 #header2{
     list-style-type: none;
+    
     display: flex;
     justify-content: space-around;
     padding: 30px;
-    color: aliceblue;
-    margin-left: 450px;
-    margin-right: 450px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #000;
+    margin-left: 425px;
+    margin-right: 425px;
+    
 
 }
+#header2 > a {
+    
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    
+
+    
+}
+
+
+#header2 > a :hover{
+     background-color: rgb(255, 165, 0);
+     border-radius: 6px;
+
+ }
+
 div.header{
-    background: gray;
-    /*opacity: 0.9;*/
+    background: #3483eb;
+    margin-bottom: 0;
+    
 }
 
+img{
 
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+div.chuck {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h5{
+    text-align: center;
+}
 
